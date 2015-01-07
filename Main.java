@@ -6,5 +6,6 @@ public class Main {
 	// write your code here
         Calculator calc = new Calculator();
         System.out.println("2+3="+calc.Add(2,3));
+		System.out.println("2-3="+calc.Subtract(2,3));
     }
 }
