@@ -9,6 +9,13 @@ public class CalculatorTest {
     public void testCalculatorAdd2And3()
     {
         Calculator calc = new Calculator();
-        assertEquals(6, calc.Add(2,3));
+        assertEquals(5, calc.Add(2,3));
+    }
+
+    @Test
+    public void testCalculatorSubtract2And3()
+    {
+        Calculator calc = new Calculator();
+        assertEquals(-1, calc.Subtract(2,3));
     }
 }
