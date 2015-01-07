@@ -30,6 +30,6 @@ public class CalculatorTest {
     public void testCalculatorAdd0And3()
     {
         Calculator calc = new Calculator();
-        assertEquals(3, calc.Subtract(0,3));
+        assertEquals(3, calc.Subtract(1,3));
     }
 }
