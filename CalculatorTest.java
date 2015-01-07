@@ -13,9 +13,23 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testCalculatorSubtract2And3()
+     public void testCalculatorSubtract2And3()
     {
         Calculator calc = new Calculator();
         assertEquals(-1, calc.Subtract(2,3));
+    }
+
+    @Test
+    public void testCalculatorSubtract6And2()
+    {
+        Calculator calc = new Calculator();
+        assertEquals(4, calc.Subtract(6,2));
+    }
+
+    @Test
+    public void testCalculatorAdd0And3()
+    {
+        Calculator calc = new Calculator();
+        assertEquals(3, calc.Subtract(0,3));
     }
 }
