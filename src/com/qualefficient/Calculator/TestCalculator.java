@@ -24,7 +24,7 @@ public class TestCalculator {
     public void testCalculatorSubtract6And2()
     {
         Calculator calc = new Calculator();
-        assertEquals(3, calc.Subtract(6,2));
+        assertEquals(4, calc.Subtract(6,2));
     }
 
     @Test
