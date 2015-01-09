@@ -33,4 +33,11 @@ public class TestCalculator {
         Calculator calc = new Calculator();
         assertEquals(3, calc.Add(0,3));
     }
+	
+	@Test
+    public void testCalculatorAdd4And3()
+    {
+        Calculator calc = new Calculator();
+        assertEquals(7, calc.Add(4,3));
+    }
 }
