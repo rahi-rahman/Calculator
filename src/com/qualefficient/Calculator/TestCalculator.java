@@ -35,9 +35,9 @@ public class TestCalculator {
     }
 	
 	@Test
-    public void testCalculatorAdd4And3()
+    public void testCalculatorAdd5And3()
     {
         Calculator calc = new Calculator();
-        assertEquals(7, calc.Add(4,3));
+        assertEquals(8, calc.Add(5,3));
     }
 }
