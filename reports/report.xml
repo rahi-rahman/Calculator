@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="LAPTOP-RAHI" name="com.qualefficient.Calculator.TestCalculator" skipped="0" tests="4" time="0.072" timestamp="2015-01-09T00:59:11">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="C:\Apps\github\Calculator\dist" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_67\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_67\jre\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar" />
+    <property name="TODAY" value="January 9 2015" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Apps\apache-ant-1.9.4\bin\.." />
+    <property name="java.runtime.version" value="1.7.0_67-b01" />
+    <property name="user.name" value="Rahi" />
+    <property name="reports" value="C:\Apps\github\Calculator\runjunit" />
+    <property name="user.language" value="en" />
+    <property name="build" value="C:\Apps\github\Calculator\build" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_67\jre\bin" />
+    <property name="ant.project.default-target" value="runjunit" />
+    <property name="ant.project.name" value="MyProject" />
+    <property name="DSTAMP" value="20150109" />
+    <property name="java.version" value="1.7.0_67" />
+    <property name="user.timezone" value="" />
+    <property name="ant.file.MyProject" value="C:\Apps\github\Calculator\build.xml" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="src" value="C:\Apps\github\Calculator\src" />
+    <property name="user.country" value="GB" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_67\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Apps\github\Calculator\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.65-b04" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Apps\apache-ant-1.9.4\lib" />
+    <property name="ant.file.type.MyProject" value="file" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Rahi" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_67\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jre7\bin\;C:\Apps\adt-bundle-windows-x86_64-20140702\sdk\tools\;C:\Apps\adt-bundle-windows-x86_64-20140702\sdk\platform-tools\;C:\Apps\apache-ant-1.9.4\bin\;C:\GitStack\python;C:\GitStack\python\Scripts;C:\GitStack\php;C:\GitStack\git\cmd;C:\GitStack\git\bin;C:\Program Files (x86)\nodejs\;c:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Ruby193\bin;C:\Users\Rahi\AppData\Roaming\npm;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp .;c:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip" />
+    <property name="java.class.path" value="C:\Apps\apache-ant-1.9.4\bin\..\lib\ant-launcher.jar;C:\Apps\github\Calculator\.\;c:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip;C:\Apps\apache-ant-1.9.4\lib\ant-antlr.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-bcel.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-bsf.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-log4j.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-oro.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-regexp.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-resolver.jar;C:\Apps\apache-ant-1.9.4\lib\ant-apache-xalan2.jar;C:\Apps\apache-ant-1.9.4\lib\ant-commons-logging.jar;C:\Apps\apache-ant-1.9.4\lib\ant-commons-net.jar;C:\Apps\apache-ant-1.9.4\lib\ant-jai.jar;C:\Apps\apache-ant-1.9.4\lib\ant-javamail.jar;C:\Apps\apache-ant-1.9.4\lib\ant-jdepend.jar;C:\Apps\apache-ant-1.9.4\lib\ant-jmf.jar;C:\Apps\apache-ant-1.9.4\lib\ant-jsch.jar;C:\Apps\apache-ant-1.9.4\lib\ant-junit.jar;C:\Apps\apache-ant-1.9.4\lib\ant-junit4.jar;C:\Apps\apache-ant-1.9.4\lib\ant-launcher.jar;C:\Apps\apache-ant-1.9.4\lib\ant-netrexx.jar;C:\Apps\apache-ant-1.9.4\lib\ant-swing.jar;C:\Apps\apache-ant-1.9.4\lib\ant-testutil.jar;C:\Apps\apache-ant-1.9.4\lib\ant.jar;C:\Program Files\Java\jdk1.7.0_67\lib\tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="TSTAMP" value="0059" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\Rahi\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_67\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Apps\github\Calculator" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Apps\github\Calculator" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\Apps\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="runjunit" />
+  </properties>
+  <testcase classname="com.qualefficient.Calculator.TestCalculator" name="testCalculatorSubtract2And3" time="0.003" />
+  <testcase classname="com.qualefficient.Calculator.TestCalculator" name="testCalculatorSubtract6And2" time="0.006">
+    <failure message="expected:&lt;3&gt; but was:&lt;4&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;4&gt;
+	at com.qualefficient.Calculator.TestCalculator.testCalculatorSubtract6And2(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="com.qualefficient.Calculator.TestCalculator" name="testCalculatorAdd0And3" time="0.0" />
+  <testcase classname="com.qualefficient.Calculator.TestCalculator" name="testCalculatorAdd2And3" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
